@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+sqlalchemy
+pymysql
+python-dotenv
+alembic
+passlib[bcrypt]
+python-multipart
+pdfplumber
+openai
+requests
+schedule
+chromadb
+tiktoken
+python-jose[cryptography]
