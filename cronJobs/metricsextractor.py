@@ -155,7 +155,7 @@ def run_metrics_job():
 
 def start_dashboard_cron():
     #Changed this due to compute costs incurred should be 2
-    schedule.every(2).minutes.do(run_metrics_job)
+    schedule.every(200000000000000000000000000000000).minutes.do(run_metrics_job)
     print("Dashboard Metrics Cron Started (every 5 minutes)")
     while True:
         schedule.run_pending()

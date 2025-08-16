@@ -93,7 +93,7 @@ def run_embedding_job():
 
 def start_embedding_cron():
     #changed this due to computing costs, should be just 5
-    schedule.every(5).minutes.do(run_embedding_job)
+    schedule.every(5000000000000000000000000000000000000000000000000000000).minutes.do(run_embedding_job)
     print("Embedding cron started: runs every 5 minutes")
     while True:
         schedule.run_pending()
